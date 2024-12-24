@@ -17,6 +17,3 @@ if let == 0:
     name = input("Name: ")
     os.system(f'git commit -m "{name}"')
     os.system("git push")
-elif let == 1:
-    os.system("sass site/prefab/scss/menu.scss site/style/menu.css")
-    os.system("sass site/prefab/scss/global.scss site/style/global.css")
